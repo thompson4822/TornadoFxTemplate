@@ -1,5 +1,6 @@
-package views
+package view
 
+import app.Styles
 import tornadofx.*
 
 class MyView : View("My View") {

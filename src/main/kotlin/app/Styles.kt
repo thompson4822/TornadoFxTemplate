@@ -1,3 +1,5 @@
+package app
+
 import javafx.scene.text.FontWeight
 import tornadofx.Stylesheet
 import tornadofx.box

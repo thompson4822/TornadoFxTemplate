@@ -13,7 +13,7 @@ repositories {
 
 javafx {
     version = "11.0.2"
-    modules = ['javafx.controls', 'javafx.graphics']
+    modules = ['javafx.controls', 'javafx.graphics', 'javafx.fxml']
 }
 
 dependencies {
@@ -34,5 +34,5 @@ compileTestKotlin {
 }
 
 application {
-    mainClassName = 'MainKt'
+    mainClassName = 'app.MyApp'
 }

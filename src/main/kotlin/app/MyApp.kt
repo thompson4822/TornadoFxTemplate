@@ -1,5 +1,7 @@
+package app
+
 import tornadofx.App
-import views.MyView
+import view.MyView
 
 class MyApp: App(MyView::class, Styles::class) {
 }
